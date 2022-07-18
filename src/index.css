@@ -1,0 +1,25 @@
+* {
+  font-family: "JetBrains Mono", Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 0;
+  padding: 0;
+}
+
+main{
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 24px;
+}
+button, input, .my_style{
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  padding: 12px;
+}
+
+.my_list{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  gap: 5px;
+}
